@@ -1,0 +1,452 @@
+/*cent*/
+/*start home page jum*/
+body{
+background:#fff;
+padding:auto;
+background-size: cover;
+background-image: fixed;
+
+}
+.footer{
+
+background-color:rgba(222, 226, 230, 1);
+color: #000;
+height: auto;
+text-align: center;
+
+
+}
+a:active{
+	color: black;
+}
+
+.logo1{
+
+width: 100px;
+height: 50px;
+right: 0px;
+
+
+}
+.logo{
+
+width: 150px;
+height: 50px;
+position: relative;
+left: -75px;
+
+}
+
+.bold{
+
+	transition:color,margin-left 2s;
+}
+.ICON/{
+display:inline-block;
+}
+
+.online{
+	display: inline-block;
+	
+}
+
+.showpass{
+position: absolute;
+font-size: 20px;
+margin-left: -50px;
+margin-top: 6px;
+}
+
+.bold:hover{
+
+	color:gray;
+	margin-left: 5px;
+}
+
+.sing{
+	display: inline-block;
+	color:black;
+	 
+}
+.proimg{
+
+	width: 50px;
+	height:50px;
+	display: inline-block;
+}
+
+/* navbar */
+.catnavbr{
+margin-left: auto;
+
+}
+.acat{
+text-decoration: none;
+color: #000;
+margin:10px;
+}
+
+.acat:hover{
+text-decoration: none;
+color: gray;
+
+}
+/*end home page*/
+
+/*start div ofer the form*/
+.div-form-login{
+
+width: 100%;
+margin:0px  auto 0px auto;
+color: black;
+background-color:rgba(222, 226, 230, 1);
+text-align: center;
+border: 1px solid rgba(222, 226, 230, 1);
+border-bottom: none;
+border-radius: .45em .45em 0px 0px;
+padding: 3px;
+}
+/*end div ofer the form*/
+
+/*start form login alig*/
+.logn{
+	background-color: rgba(222, 226, 230, 1);
+	margin: 100px auto;
+	border-radius: 5px 5px 0px 0px;
+	color:gray;
+	font-style: italic;
+}
+.login{
+width: 75%;
+margin: 100px auto;
+color: black;
+background: #fff;
+
+border: 1px solid rgba(222, 226, 230, 1);
+border-radius: .55em .55em .35em .35em ;
+padding: 0px;
+}
+
+.loginedit{
+width: 45%;
+margin: 100px auto;
+color: black;
+background: #fff;
+border: 1px solid rgba(222, 226, 230, 1);
+border-radius: .55em .55em .35em .35em ;
+padding: 0px;
+}
+
+
+.Register{
+width: 75%;
+margin: 100px auto;
+color: black;
+background: #fff;
+text-align: center;
+border: 1px solid rgba(222, 226, 230, 1);
+border-radius: .55em .55em .35em .35em ;
+padding: 0px;
+}
+
+/*end form login*/
+/*start input in the form*/
+.form-control{
+font-style: italic;
+height: 40px;
+border-radius:5px;
+display:inline-block; 
+position: relative;
+font-size: 18px;
+}
+
+
+
+
+.btn{
+border-radius:5px 5px 5px 5px;
+background-color:rgba(222, 226, 230, 1);
+padding-top: 5px;
+border-color:#FFCCCC; 
+margin-left:0px;
+margin-bottom: 5px;
+margin-top: 5px; 
+color: black;
+transition: background,margin-right 1s;
+}
+
+
+.btn:hover{
+	background:radial-gradient(circle, pink, gray, black);;
+	margin-right:5px; 
+	border-color: #FF6699
+
+	
+}
+
+/*end input in the form*/\
+/*link form*/
+p.link{
+
+color:black;
+
+}
+/*start navbar*/
+
+.dropdown-menu{
+margin-bottom:0px;
+background-color:rgba(222, 226, 230, 1);
+margin:7px;
+margin-left:-45px;
+padding:6px;
+min-width:50px;
+}
+
+.dropdown-menu a{
+
+transition:color, background ,font-size 2s; 
+}
+.dropdown-menu a:hover{
+background-color: #fff;
+color: #000;
+font-size: 18px;
+}
+.bg-color{
+
+	background-color:rgba(222, 226, 230, 1);
+
+}
+
+.ICON/{
+display:inline-block;
+}
+
+
+/*Astreisk function in jquery */
+.Astreisk{
+position: absolute;
+font-size: 20px;
+color: red;
+margin-left: -30px;
+margin-top: 4px;
+}
+
+
+/**=======================================user category=================================================*/
+/**=======================================user category=================================================*/
+/**=======================================user category=================================================*/
+/**=======================================user category=================================================*/
+/**=======================================user category=================================================*/
+/**=======================================user category=================================================*/
+/*jumptroun item*/
+.jum{
+
+	position: relative;
+	padding: 5px;
+	margin: 25px;
+	max-width: 180px;
+	height: auto;
+	overflow:hidden;
+}
+.itemimg{
+	max-width:100%;
+	height:180px;
+	padding: 0px;
+	border-radius: 5px;
+}
+
+
+.parentmimg{
+	width:180px;
+	height:180px;
+	padding: 0px;
+	border-radius: 5px;
+}
+
+.price{
+	background-color:rgba(146, 153, 160, 1);
+	position:absolute;
+	height: auto;
+	width: auto;
+	top:180px;
+
+}
+.data{
+
+	margin-left: 10px;
+	color: gray;
+}
+.user-circle .col-md-3 .itemimg{
+	max-width:150px;
+	height:100px;
+	padding: 0px;
+}
+
+.user-com .lead{
+background:radial-gradient(circle,#FFCCCC,#FFFFFF ,#FFCCCC);
+	/*background-color: rgba(215, 218, 216, 1);*/
+	position: relative;
+	top: 30px;
+	margin-bottom:20px;
+	padding: 10px;
+	border-radius: 3px;
+}
+.user-com .lead:before{
+content: "";
+position: absolute;
+left: -28px;
+width:0px;
+height:0px;
+border-style: solid;
+/*make the comment tranccel  transparent rgba(215, 218, 216, 1) transparent transparent */
+border-color:transparent rgba(215, 218, 216, 1)  transparent transparent;
+border-width: 15px;
+}
+/*====================================================================proile*/
+.promimg{
+
+	width: 80px;
+	height:80px;
+	display: inline-block;
+	border: 2px white solid;
+}
+
+.card-header{
+background-color:#343a40; 
+color: #FFF;
+
+}
+
+.card-body{
+
+	background-color:#fFF;
+	padding: 0PX; 
+	
+}
+
+
+
+.card3{
+width: 490px;
+	margin-top: 20px;
+}
+
+
+.card-body ul span{
+width: 200px;
+display: inline-block;
+font-weight: bold;
+}
+.card-body ul li:nth-child(odd){
+background-color: #eee;
+
+}
+
+
+/*a href*/
+a{
+	
+color: #000;
+text-decoration: none;
+
+}
+
+a:hover{
+color: #000;
+text-decoration: none;
+
+}
+
+.approx{
+background-color:rgba(168, 67, 111, 1);
+position: absolute;
+left: 180px;
+border-radius: 3px;
+
+
+}
+h6{
+	color: white;
+}
+/*================================================================================creat item*/
+
+
+
+
+
+.LIVE-PREVIWE{
+
+background-color: rgba(223, 231, 230, 1);
+border-radius: 5px;
+border-style: solid;
+border-width: 3px;
+}
+
+h1{
+	text-align: center;
+    font-style: italic;
+}
+.cent{
+	text-align: center;
+}
+
+/*====================Item page*/
+/*====================c jum=============================*/
+.it{
+display: inline-block;
+	font-size: 20px;
+	margin-right: 10px;
+	color:rgba(10, 10, 10, 1);
+	width: 200px;
+}
+.iteminfo ul li:nth-child(odd){
+background-color:rgba(199, 199, 199, 1);
+width: 400px;
+}
+hr{
+
+	
+	background-color:#000; 
+}
+.caption{
+text-align: right;
+
+}
+
+
+/*edit page==================================================*/
+.alig{
+
+	margin-left: -450px;
+	font-weight: bold;
+}
+
+.ali{
+
+	text-align: left;
+	font-weight: bold;
+}
+
+/*/////////////////////////////////////////////*/
+.tag{
+
+	background-color:rgba(222, 226, 230, 1);
+	padding: 5px;
+	margin-bottom: 10px;
+	text-align: center;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+
+
+
+
+/*index======================================================*/
+.centeros{
+
+	
+	font-size:20px;
+}
+
+

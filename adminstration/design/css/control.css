@@ -1,0 +1,553 @@
+/*hr
+/*start home page*/
+
+
+
+body{
+	background-color:#fff ;
+padding:auto;
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
+
+
+}
+.bold{
+    text-decoration: none;
+	transition:color,margin-left 2s;
+	color: #000;
+    
+}
+.bold:hover{
+
+	color:gray;
+	margin-left: 5px;
+	text-decoration: none;
+    color: #000;
+}
+/* navbar */
+.catnavbr{
+margin-left: auto;
+
+}
+
+
+/*end home page  div-form-login*/
+
+/*start div ofer the form*/
+.div-form-login{
+
+width: 100%;
+margin: 0px  auto 0px;
+color: black;
+background:linear-gradient(to top,#FFCCCC,#FFFFFF ,#FFCCCC);
+text-align: center;
+border: 1px solid #80c4de;
+border-bottom: none;
+border-radius: .45em .45em 0px 0px;
+padding: 3px
+;
+}
+/*end div ofer the form*/
+
+/*start form login*/
+
+.login{
+margin: 150px auto;
+color: black;
+background: #fff;
+text-align: center;
+border: 1px solid #343a40;
+border-radius: .55em .55em .35em .35em ;
+padding:0px;
+
+}
+
+/*end form login hover*/
+/*start input in the form*/
+.form-control{
+font-style: italic;
+height: 40px;
+border-radius:5px;
+display:inline-block; 
+position: relative;
+font-size: 18px;
+background:#FFFFff;
+}
+.bttn{
+
+	border-radius:5px 5px 5px 5px;
+margin-top: 2px;
+margin-bottom: 2px;
+background:linear-gradient(to top,#FFFFFF,#FFCCCC,#FFFFFF);
+padding-top: 5px;
+}
+
+
+/*link form*/
+
+
+
+
+
+p.link{
+
+color:black;
+
+}
+/*start navbar*/
+
+.dropdown-menu{
+margin-bottom:0px;
+background-color:rgba(222, 226, 230, 1);
+
+margin:7px;
+margin-left:-45px;
+padding:6px;
+min-width:50px;
+}
+
+.dropdown-menu a{
+
+transition:color, background ,font-size 2s; 
+}
+.dropdown-menu a:hover{
+background: radial-gradient(circle, black, gray, black);
+color: white;
+font-size: 15px;
+}
+
+
+.btn{
+border-radius:5px 5px 5px 5px;
+background:#FFCCCC;
+padding-top: 5px;
+border-color:#FFCCCC; 
+margin-left:0px;
+margin-bottom: 5px;
+margin-top: 5px;
+color: black;
+transition: background,margin-right 1s;
+}
+
+
+.btn:hover{
+	background: radial-gradient(circle, pink, gray, black);
+	margin-right:5px; 
+	border-color: #FF6699
+
+	
+}
+.btn:active{
+	background: radial-gradient(circle, pink, gray, black);
+}
+.bg-color{
+
+	background-color:rgba(222, 226, 230, 1);;
+}
+
+.ICON/{
+display:inline-block;
+}
+/*the start dashbord pag*/
+/*===========================================================================================*/
+.row1{
+margin-top: 100px;
+text-align: center;
+
+}
+
+.spans a{
+color: #fff;
+text-decoration: none;
+
+}
+
+
+.col1{
+background: linear-gradient(to top,#FF1919,#FFFFFF ,#FF1919);
+padding: 10px;
+margin: 5px;
+height: 200px;
+border-radius: 70px 0px;
+font-size: 20px;
+color: #fff;
+
+}.col2{
+background: linear-gradient(to top,#6666FF,#FFFFFF ,#6666FF);	
+padding: 10px;
+margin: 5px;
+height: 200px;
+border-radius: 70px 0px;
+font-size: 20px;
+color: #fff;
+
+}.col3{
+background: linear-gradient(to top,#663300,#FFFFFF ,#663300);		
+padding: 10px;
+margin: 5px;
+height: 200px;
+border-radius: 70px 0px;
+font-size: 20px;
+color: #fff;
+
+}.col4{
+background: linear-gradient(to top,#006666,#FFFFFF ,#006666);		
+padding: 10px;
+margin: 5px;
+height: 200px;
+border-radius: 70px 0px;
+font-size: 20px;
+color: #fff;
+
+}
+ .spans{
+
+	font-size: 40px;
+	display: block;
+	color: #fff;
+}
+
+.card1{
+
+	margin-top: 20px;
+}
+
+.card-body li{
+padding: 5px;
+overflow: hidden;
+
+}
+.card-body1 li:nth-child(odd){
+
+background:radial-gradient(circle,rgba(222, 226, 230, 1)
+,#FFFFFF ,rgba(222, 226, 230, 1));
+
+}
+.mem1{
+
+display:inline-block;
+
+
+}
+.edit{
+
+	text-decoration:none;
+	color: #000;
+}
+.edit:hover{
+	text-decoration: none;
+	color: #000;
+}
+
+/******************************************** comment items*/
+.card3{
+
+	margin-top: 20px;
+}
+
+.card-body{
+	padding: 0px;
+}
+
+
+.card-body3 span:nth-child(odd){
+
+border-radius: 3px;
+background:radial-gradient(circle,rgba(222, 226, 230, 1)
+,#FFFFFF ,rgba(222, 226, 230, 1));
+}
+.card-body3 span{
+padding: 20px;
+overflow: hidden;
+width: 350px;
+
+
+}
+.card-body3 span:before{
+content: "";
+position: absolute;
+/*left: 157px;*/
+right: 348px;
+width:0px;
+height:0px;
+border-style: solid;
+/*make the comment tranccel  transparent #eee transparent transparent */
+border-color:transparent rgba(222, 226, 230, 1) transparent transparent;
+border-width: 15px;
+}
+
+/*==========================================================================================*/
+/*start page memmbers*/
+/*start page memmbers edit*/
+.Edit{
+
+text-align: center;
+margin-top: 0px;
+margin-left: 300px;
+
+width: 700px;
+
+}
+
+.online{
+	display: inline-block;
+	text-shadow: 0px 0px 3px #FF0000,0px 0px 8px #fff;
+}
+
+.lab1{
+display: inline-block;
+width:50px;
+height: 35px;
+margin-top:-25px;
+border-radius: 5px 0px 0px 5px;
+
+}
+
+
+.Member{
+font-style: italic;
+height: 40px;
+border-radius:0px 5px 5px 0px;
+display:inline-block;
+padding-top:20px; 
+height: 35px;
+
+}
+/*end page memmbers edit*/
+
+h1{
+	text-align: center;
+	font-style: italic;
+	text-shadow: 0px 0px 3px rgba(222, 226, 230, 1),0px 0px 8px #fff;
+
+}
+.alert{
+
+	width: 300px;
+}
+.activate{
+
+	margin-left: 5px;
+}
+
+/*Astreisk function in jquery */
+.Astreisk{
+position: absolute;
+font-size: 20px;
+color: red;
+margin-left: -30px;
+margin-top: 4px;
+}
+
+/*eye in icon password in add page */
+.showpass{
+position: absolute;
+font-size: 20px;
+margin-left: -50px;
+margin-top: 6px;
+}
+
+.tex-center{
+
+	text-align: center;
+}
+/*thead in the table manage member */
+
+thead{
+	background-color: black;
+	color: #fff;
+}
+/*btn add member */
+.btn-add{
+
+	margin-left:400px;
+}
+.mem:hover{
+
+	color: #000;
+}
+/*table responsive in manage page in the members*/
+.table-normal{
+text-align: center;
+border-size:5px;
+background:radial-gradient(circle,#FFCCCC,#FFFFFF ,#FFCCCC);
+
+}
+.imgg{
+width: 80px;
+height: 80px;
+border-radius: 5px;
+border: 3px black solid;
+
+}
+/*=======================================================================*/
+/*the start of categoreis page*/
+hr{
+
+	border-top: 3px solid #343a40;
+}
+.dis{
+	display: inline-block;
+}
+
+/*start div ofer the form*/
+
+.categoreis{
+width: 25%;
+margin: 100px auto 0px auto;
+color: black;
+background: #fff;
+text-align: center;
+border: 1px solid #343a40;
+border-radius: .55em .55em .35em .35em ;
+padding: 0px;
+
+}
+/*end div ofer the form*/
+
+
+/*start div ofer the form*/
+.div-form-Categories{
+
+width: 100%;
+margin: 0px auto;
+color: white;
+background:#00cc99;
+text-align: center;
+border: 1px solid #80c4de;
+border-bottom: none;
+border-radius: .45em .45em 0px 0px;
+padding: 3px;
+}
+/*end div ofer the form*/
+
+/* cat is class  input radio  */
+
+.cat{
+
+text-align: left;
+display:inline-block;
+margin-left: -240px;
+}
+/*class of lable in radio input*/
+ .cat1{
+
+text-align: left;
+font-weight: 200PX;
+font-style: italic;
+
+}
+
+/*categ class of the card*/
+
+.categ{
+margin-left:300px;
+
+}
+/*span in fetch data*/
+
+/*this class of colmun in data base .visib .comm .adv*/
+.visib{
+background-color: #993366;
+margin-right:10px;
+border-radius: 5px;
+
+}
+.comm{
+background-color: #999966;
+margin-right:10px;
+border-radius: 5px;
+
+
+	}
+.adv{
+background-color: #997788;
+margin-right:10px;
+border-radius: 5px;
+
+
+}
+
+
+/*this class bttun in category*/
+.membt{
+
+margin-left: 5px;
+padding: 0px;
+
+
+}
+
+/*class of href to ASC and DESC*/
+.ref{
+
+	color: gray;
+}
+
+
+
+.pull-right a:hover{
+
+text-decoration: none;
+
+}
+
+
+
+.pull-right .active{
+	color: red;
+	font-weight: bold;
+}
+
+.card-body .strong{
+
+cursor: pointer;
+margin:0px;
+
+}
+
+.card-header{
+background-color:#343a40; 
+color: #FFF;
+
+}
+
+.cardca1{
+
+	background: linear-gradient(to top,#FFCCCC,#FFFFFF ,#FFCCCC);
+	padding: 0PX;
+	margin: 0px;
+	
+}
+
+.child{
+	color: rgba(200, 126, 151, 1);
+}
+.show-Delete{
+	text-decoration: none;
+	color: red;
+}
+
+/*================================================================================*/
+/*start Item Page*/
+.Item-form{
+width: 25%;
+margin: 100px auto;
+color: black;
+background: #fff;
+text-align: center;
+border: 1px solid #343a40;
+border-radius: .55em .55em .35em .35em ;
+padding: 0px;
+}
+.Status{
+
+	font-weight: bolder;
+	color: red;
+}
+
+
+
+
+
