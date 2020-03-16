@@ -72,7 +72,10 @@ $nonavbar=''
 			
 <br>
 
-			<button type="submit" class="btn btn-primary">Add Member</button>
+			<button type="submit" class="btn btn-primary"> register</button>
+
+
+			<p> <a href="login.php" class="link">تسجل الدخول  </a> هل لديك حساب؟</p>
 		
 			</form>
           
@@ -100,28 +103,7 @@ $nonavbar=''
 			<div class='footer'>
 <div class="container">
 	
-	<div class="row">
-
-
-		<div class=" col-sm-4 col-md-4 ">
-language English
-	</div>
-
-	<div class=" col-sm-4 col-md-4 ">
-$ USD-U.S.Dollar   
-	</div>
-
-	<div class=" col-sm-4 col-md-4 ">
-SUDAN
-	</div>
-
-
-
-
-
-</div>
-
-<br>
+	
 
 
   <div class="row">

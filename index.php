@@ -6,7 +6,7 @@ include 'initialize1.php';
 
 
 echo"<h1>","Wellcom In The Sudshop","</h1>";
-
+include "slid.inc";
 $getitem=getAllform("*","item","where Approve=1","","`Item-ID`");
 echo "<div class='container'>";
 
@@ -53,30 +53,6 @@ echo"</div>";
 <div class='footer'>
 <div class="container">
 	
-	<div class="row">
-
-
-		<div class=" col-sm-4 col-md-4 ">
-language English
-	</div>
-
-	<div class=" col-sm-4 col-md-4 ">
-$ USD-U.S.Dollar   
-	</div>
-
-	<div class=" col-sm-4 col-md-4 ">
-SUDAN
-	</div>
-
-
-
-
-
-</div>
-
-<br>
-
-
   <div class="row">
     <div class="col-md-12 ">
 

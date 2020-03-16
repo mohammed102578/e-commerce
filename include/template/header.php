@@ -19,7 +19,7 @@ $stmt=$con->prepare($sql);
 $stmt->execute(array($_SESSION['user']));
 $row=$stmt->fetch();?>
 
- <div class="dropdown online">
+ <div class="dropdown online ">
   <?php echo "<img   class='proimg img-fluid rounded-circle'
    src='adminstration/upload/avatar/".$row['avatar']."'alt='no picture'>" ;?>
   <a class=" dropdown-toggle mr" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -52,7 +52,7 @@ $row=$stmt->fetch();?>
 
 foreach ($categories as $categorie) {
 
-echo '<a class="dropdown-item" href="parent-cat.php?catID='.$categorie['ID'].'">'.$categorie['Name']."</a>";
+echo '<a class="dropdown-item " href="parent-cat.php?catID='.$categorie['ID'].'">'.$categorie['Name']."</a>";
 
 
 }
@@ -92,7 +92,7 @@ $status=checkuser($session_user);
 ?>
 
 
-<nav class="navbar navbar-expand-lg navbar-light bg-color justify-content-between .navbar-fixed-top">
+<nav class="navbar navbar-expand-lg navbar-light bg-color justify-content-between ">
   <a class="navbar-brand" href="index.php"><i class="fa fa-home fa-lg" aria-hidden="true"></i>Home Page</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -119,16 +119,7 @@ $status=checkuser($session_user);
 
 
   </ul>
-
-
-
-
-
-
-
-
-
-
+<!--search-->
   <form class="form-inline" action="<?php echo htmlspecialchars('search.php?search=$_GET["search"]')?>" method="GET" >
     <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" name="search" value="<?php 
 
@@ -141,24 +132,10 @@ else{
   echo"";
 }
 
-
-
-
-
-
-
 ?>">
     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
   </form>
-
-
-
-
-
-
-
-
-
+<!--end search-->
   </div>
 </nav>
 

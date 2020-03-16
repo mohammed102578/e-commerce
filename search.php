@@ -5,6 +5,7 @@ session_start();
 $pageTitle="search";
 
 include 'initialize1.php';
+include "slid.inc";
 echo '<div class="container">';
 $searget=$_GET['search'];
 

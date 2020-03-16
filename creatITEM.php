@@ -108,7 +108,7 @@ echo "</div>";
 //=============================================================================================
 ?>
 <h1>Creat Item</h1>
-<!--/////////////////////////////////////////////////////////////////////////////////////// -->
+<!--img/////////////////////////////////////////////////////////////////////////////////////// -->
     <div class="container">
      <div class="col-sm-12 col-md-12 col-lg-12 col-xm-12">
    
@@ -207,7 +207,7 @@ $item=$stmt2->fetch();
             <div class=' LIVE-PREVIWE'>
             <div class='price'>price</div>
             <?php
-            echo"<img   class='itemimg img img-responsive col-xm-12 col-sm-12 col-md-6 col-lg-4'  src='pic.png' alt='no picture'>";?>
+            echo"<img   class='itemimg img img-responsive col-xm-12 col-sm-12 col-md-6 col-lg-4'  src='item.jpg' alt='no picture'>";?>
              <div class='caption'>
              <h3>Titel</h3>
              <p>description</p>

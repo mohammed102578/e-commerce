@@ -99,7 +99,8 @@ if ($count==1) {
       </form>
  <?php
 if ($_SERVER['REQUEST_METHOD']=='POST') {
-  $comment=filter_var($_POST['comment'],FILTER_SANITIZE_STRING);
+  $comments=filter_var($_POST['comment'],FILTER_SANITIZE_STRING);
+  $comment=htmlspecialchars($comments); 
   $usercom=$_SESSION['userID'];
   $itemcom=$Item['Item-ID'];
 
@@ -138,7 +139,7 @@ echo $theMsg;
   <hr>
   <?php 
 
-$sql="SELECT comment.*,users.username  AS `username` FROM comment INNER JOIN users ON `userID`=`User_ID` where Status =1 AND `Item_ID`=?";
+$sql="SELECT comment.*,users.avatar AS `avatar`  FROM comment INNER JOIN users ON `userID`=`User_ID` where `Status`=1 AND `Item_ID`=?";
 $stmt=$con->prepare($sql);
 $stmt->execute(array($ItemID));
 $row=$stmt->fetchall();
@@ -147,14 +148,18 @@ $row=$stmt->fetchall();
  
   
    foreach($row as $rows){
+
     echo "<div class='container'>";
       echo"<div class='row'>";
        echo"<div class='user-circle'>";
-    echo"<div class='col-md-3'>";
-    echo "<img class='itemimg img-fluid rounded-circle' src='pic.jpg' alt='no picture'>";
-    echo "<h5>".$rows['username']."</h5>"; 
+    
 
-    echo"</div>";
+
+   echo "<img   class='promimg img-fluid rounded-circle'
+   src='adminstration/upload/avatar/".$rows['avatar']."'alt='no picture'>";
+    echo "<h5>".$_SESSION['user']."</h5>"; 
+
+    
     echo "</div>";
 
     echo "<div class='col-md-9'>";
@@ -175,9 +180,14 @@ else {
 $theMsg= "<div class='alert  alert-danger'>"."<strong>". "No found this Id OR This Item Is Waiting Approval"."</strong>"."</div>";
 HomeRedirerct($theMsg,'home',6);
 echo "</div>";
+echo "</div>";
 }
 
+?>
 
+
+
+<?php
 
 
 
@@ -185,5 +195,30 @@ echo "</div>";
 
 
 ob_end_flush();
-include $template."footer.inc"; 
+ include $template."footer.inc";
 ?>
+</div>
+<div class='footer'>
+
+  <div class="row">
+    <div class="col-md-12 ">
+
+<span class="centeros">Copyright 2020 ,All Rights Reserved &copy</span>
+</div>
+
+
+
+
+
+</div>
+<br><br>
+<div class="row">
+<div class="col-sm-12 col-md-12 ">
+<span    class="centeros">
+<a href="facebook.com"><i class="fa fa-facebook" style="font-size:26px; color: #3399FF">  </i>&nbsp&nbsp&nbsp&nbsp</a>
+<a href="telegram.com"><i class="fa fa-telegram" style="font-size:26px; color: #3399FF">   </i>&nbsp&nbsp&nbsp&nbsp</a>
+<a href="twitter.com"><i class="fa fa-twitter" style="font-size:26px; color: #3399FF">     </i>&nbsp&nbsp&nbsp&nbsp</a>
+<a href="google.com"><i class="fa fa-google" style="font-size:26px; color: #FF6666">       </i>&nbsp&nbsp&nbsp&nbsp</a>
+<a href="youtube.com"><i class="fa fa-youtube" style="font-size:26px; color: #FF6666">       </i>&nbsp&nbsp&nbsp&nbsp</a>
+</span>
+</div>

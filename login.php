@@ -72,16 +72,16 @@ HomeRedirerct($theMsg,'back',3);
 	
 	<div class="div-form-login"><h1>login</h1></div>
 <div class="form-group">
-			<div class="text-left"> <i class="icon fa fa-user-circle-o" style="font-size:20px"></i> <h5  class="online"> User Name :</h1> </div>
+			<div class="text-left"> <i class="icon fa fa-user-circle-o" style="font-size:20px"></i> <h5  class="online"> User Name :</h5> </div>
 			<input type="text" class="Member form-control " name="user" placeholder="Enter user name"  autocomplete="off"  required= "required">
 			</div>
 <div class="form-group">
-			<div class="text-left">  <i class="fa fa-key" aria-hidden="true" style="font-size:20px"></i> <h5  class="online"> Password:</h1></div>
+			<div class="text-left">  <i class="fa fa-key" aria-hidden="true" style="font-size:20px"></i> <h5  class="online"> Password:</h5></div>
 			<input type="password" class="password  Member form-control" name="pass" placeholder="Enter your password" autocomplete="new-password" required= "required">
 			<i class="showpass fa fa-eye fa-2x">	</i>
 			</div>
+<button type="submit" class="btn btn-primary">login</button>
 
-<input class="btn btun" type="submit" name="submit" value="login">	
 <p> <a href="register1.php" class="link">sign in</a> تسجيل جديد ؟</p>
 
 </form>
@@ -97,27 +97,7 @@ HomeRedirerct($theMsg,'back',3);
 <div class='footer'>
 <div class="container">
 	
-	<div class="row">
-
-
-		<div class=" col-sm-4 col-md-4 ">
-language English
-	</div>
-
-	<div class=" col-sm-4 col-md-4 ">
-$ USD-U.S.Dollar   
-	</div>
-
-	<div class=" col-sm-4 col-md-4 ">
-SUDAN
-	</div>
-
-
-
-
-
-</div>
-
+	
 <br>
 
 
