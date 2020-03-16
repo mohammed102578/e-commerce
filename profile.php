@@ -1,9 +1,10 @@
-<?phpfp
+
+<?php
 ob_start();
 session_start();
 
 if (isset($_SESSION['user'])) {
-	
+  
 $pageTitle="profile";
 include 'initialize1.php';
 
@@ -65,14 +66,12 @@ echo"</div>";
 
   </div>
 <br>
-<h1 style="color: rgba(152, 128, 62, 1)0">My Item In Sudashop</h1>
 <!--/////////////////////////////////////////////////////////////////////////////////////// -->
  <div class="row">
+
      
             
-         
-
-      
+                
          
  
            <?php
@@ -88,6 +87,13 @@ echo"</div>";
          echo "<div class='row'>";
            foreach ($items as $item) {
             
+            
+            
+
+
+
+
+
 
 echo"<div class='col-xm-12 col-sm-6 col-md-3 '>";
 
@@ -148,14 +154,13 @@ echo"</div>";
             </div>
             <div class="card-body3 card-body">
             <?php 
-
 $sql="SELECT comment.* ,item.Name As `name` FROM comment INNER JOIN item ON item.`Item-ID`= comment.`Item_ID` WHERE `User_ID`=?";
 $stmt=$con->prepare($sql);
 $stmt->execute(array($member_ID));
 $com=$stmt->fetchAll();
 $comCount=$stmt->rowcount();
 if ($comCount>0) {
-  echo "<div class='col-md-12 col-sm-12'>";
+ echo "<div class='col-md-12 col-sm-12'>";
  echo " <div class='table-normal'>";
     
   
@@ -163,8 +168,8 @@ if ($comCount>0) {
 echo "<table class='table table-bordered'>";
 echo "<tr>";
   echo "<thead>";
-    echo "<td>Item-Name</td>";
-    echo "<td>Comment</td>";
+    echo "<td><strong>Item-Name</strong></td>";
+    echo "<td><strong>Comment</strong></td>";
 
   echo "</thead>";
 echo "</tr>";
@@ -207,8 +212,43 @@ else{
 else{
   
 
-	header("location:login.php");
+  header("location:login.php");
 }
 ob_end_flush();
 include $template."footer.inc"; 
 ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

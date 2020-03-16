@@ -90,27 +90,6 @@ echo "<div class='alert alert-danger'> you are not search</div>";
 <div class='footer'>
 <div class="container">
 	
-	<div class="row">
-
-
-		<div class=" col-xm-4 col-md-4 ">
-language English
-	</div>
-
-	<div class=" col-sm-4 col-md-4 ">
-$ USD-U.S.Dollar   
-	</div>
-
-	<div class=" col-sm-4 col-md-4 ">
-SUDAN
-	</div>
-
-
-
-
-
-</div>
-
 <br>
 
 

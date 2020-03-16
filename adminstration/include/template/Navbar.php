@@ -1,5 +1,5 @@
 
-<nav class="navbar navbar-expand-lg navbar-light bg-color justify-content-between ">
+<nav class="navbar navbar-expand-lg navbar-light bg-color justify-content-between fixed-top" style="border-bottom:#000 2px solid ">
   <a  style="color: red;" class=" navbar-brand " href="dashbord.php"><i class="fa fa-home fa-lg " aria-hidden="true"></i><?php echo lang('brand'); ?></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -18,12 +18,7 @@
 <li class="nav-item ">
         <a class="nav-link nav-activ bold" href="comment.php"><?php echo lang('COMMENT'); ?><span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item ">
-        <a class="nav-link nav-activ bold" href="#"><?php echo lang('STATISTICS'); ?><span class="sr-only">(current)</span></a>
-      </li>
-<li class="nav-item ">
-        <a class="nav-link nav-activ bold" href="#"><?php echo lang('LOGS'); ?><span class="sr-only">(current)</span></a>
-      </li>
+     
 
   </ul>
       <div class="dropdown">

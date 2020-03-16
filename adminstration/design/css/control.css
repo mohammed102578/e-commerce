@@ -1,4 +1,4 @@
-/*hr
+/*
 /*start home page*/
 
 
@@ -120,7 +120,7 @@ font-size: 15px;
 
 .btn{
 border-radius:5px 5px 5px 5px;
-background:#FFCCCC;
+background:radial-gradient(circle, pink, gray, black);
 padding-top: 5px;
 border-color:#FFCCCC; 
 margin-left:0px;
@@ -134,10 +134,12 @@ transition: background,margin-right 1s;
 .btn:hover{
 	background: radial-gradient(circle, pink, gray, black);
 	margin-right:5px; 
-	border-color: #FF6699
+	border-color:#336699;
+	color:#fff;
 
 	
 }
+
 .btn:active{
 	background: radial-gradient(circle, pink, gray, black);
 }
@@ -165,7 +167,7 @@ text-decoration: none;
 
 
 .col1{
-background: linear-gradient(to top,#FF1919,#FFFFFF ,#FF1919);
+background-color:#006666;
 padding: 10px;
 margin: 5px;
 height: 200px;
@@ -174,7 +176,7 @@ font-size: 20px;
 color: #fff;
 
 }.col2{
-background: linear-gradient(to top,#6666FF,#FFFFFF ,#6666FF);	
+background-color:#006666;
 padding: 10px;
 margin: 5px;
 height: 200px;
@@ -183,7 +185,7 @@ font-size: 20px;
 color: #fff;
 
 }.col3{
-background: linear-gradient(to top,#663300,#FFFFFF ,#663300);		
+background-color:#006666;
 padding: 10px;
 margin: 5px;
 height: 200px;
@@ -192,7 +194,7 @@ font-size: 20px;
 color: #fff;
 
 }.col4{
-background: linear-gradient(to top,#006666,#FFFFFF ,#006666);		
+background-color:#006666;
 padding: 10px;
 margin: 5px;
 height: 200px;
@@ -220,7 +222,7 @@ overflow: hidden;
 }
 .card-body1 li:nth-child(odd){
 
-background:radial-gradient(circle,rgba(222, 226, 230, 1)
+background-color:rgba(222, 226, 230, 1);
 ,#FFFFFF ,rgba(222, 226, 230, 1));
 
 }
@@ -254,7 +256,7 @@ display:inline-block;
 .card-body3 span:nth-child(odd){
 
 border-radius: 3px;
-background:radial-gradient(circle,rgba(222, 226, 230, 1)
+background-color:rgba(222, 226, 230, 1);
 ,#FFFFFF ,rgba(222, 226, 230, 1));
 }
 .card-body3 span{
@@ -369,9 +371,11 @@ thead{
 }
 /*table responsive in manage page in the members*/
 .table-normal{
+	box-shadow: inherit;
+	margin-top: 40px;
 text-align: center;
 border-size:5px;
-background:radial-gradient(circle,#FFCCCC,#FFFFFF ,#FFCCCC);
+background-color:rgba(222, 226, 230, 1);
 
 }
 .imgg{
@@ -386,6 +390,10 @@ border: 3px black solid;
 hr{
 
 	border-top: 3px solid #343a40;
+}
+.table-bordered td, .table-bordered th{
+
+	border: 1px solid #000;
 }
 .dis{
 	display: inline-block;
@@ -515,9 +523,9 @@ color: #FFF;
 
 .cardca1{
 
-	background: linear-gradient(to top,#FFCCCC,#FFFFFF ,#FFCCCC);
+	background-color:rgba(222, 226, 230, 1);
 	padding: 0PX;
-	margin: 0px;
+	margin-top: 40px;
 	
 }
 
