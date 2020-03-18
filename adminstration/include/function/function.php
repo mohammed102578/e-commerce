@@ -127,10 +127,10 @@ return $row;
 function checkitemid($ItemID){
  	global $con;
 $sql="SELECT `Item-ID` FROM `item` WHERE `Item-ID`= ?";
-$statement=$con->prepare($sql);
-$statement->execute(array($ItemID));
-$count=$statement->rowcount();
-return $count;
+$statement1=$con->prepare($sql);
+$statement1->execute(array($ItemID));
+$count1=$statement->rowcount();
+return $count1;
  }
 
 ?>

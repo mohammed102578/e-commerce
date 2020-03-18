@@ -120,7 +120,6 @@ font-size: 15px;
 
 .btn{
 border-radius:5px 5px 5px 5px;
-background:radial-gradient(circle, pink, gray, black);
 padding-top: 5px;
 border-color:#FFCCCC; 
 margin-left:0px;
@@ -132,7 +131,7 @@ transition: background,margin-right 1s;
 
 
 .btn:hover{
-	background: radial-gradient(circle, pink, gray, black);
+	background-color:#343a40;
 	margin-right:5px; 
 	border-color:#336699;
 	color:#fff;
@@ -324,9 +323,12 @@ h1{
 	text-shadow: 0px 0px 3px rgba(222, 226, 230, 1),0px 0px 8px #fff;
 
 }
-.alert{
+.alert1{
 
-	width: 300px;
+	width: 400px;
+	position: absolute;
+	top: 380px;
+	left: 440px;
 }
 .activate{
 

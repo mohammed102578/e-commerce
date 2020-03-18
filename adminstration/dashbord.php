@@ -87,12 +87,16 @@ $Coms=$stmt->fetchAll();
      <div class="col4 ">
 	     <h1>Total of Items</h1>
 	     <h1>
-     
-      <a href="Item.php">  <?php $sql="SELECT count(`Item-ID`) FROM item";
+     <!------<?php// $sql="SELECT count(`Item-ID`) FROM item";
+     // $stmt2=$con->prepare($sql);
+      //$stmt2->execute();
+      //$row2=$stmt2->fetchColumn();
+      //echo $row2;?>----------->
+      <a href="Item.php"> <?php $sql="SELECT count(`Item-ID`) FROM item";
       $stmt2=$con->prepare($sql);
       $stmt2->execute();
       $row2=$stmt2->fetchColumn();
-      echo $row2;?></a>
+      echo $row2;?> </a>
       </h1>
        </div>
    </div>

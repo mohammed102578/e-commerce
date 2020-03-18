@@ -30,10 +30,10 @@ if ($count>0) {
 
 else{
 
-	$theMsg= "<div class='alert  alert-danger'>"."<strong>"."Please Enter correct User Name"."</strong>"."</div>";
+	echo $theMsg= "<div class='alert   alert-danger alert1'>"."<strong>"."Please Enter correct User Name"."</strong>"."</div>";
 
 
-HomeRedirerct($theMsg,'back',6);
+
 }
 
 
@@ -53,7 +53,9 @@ HomeRedirerct($theMsg,'back',6);
 
 </form>
 </div>
-<?php 
+<?php
+
+
 include $template."footer.inc"; 
 
 ob_end_flush();
